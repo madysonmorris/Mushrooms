@@ -18,6 +18,8 @@ public class Mushroom {
 			edible = false;
 		StringBuilder sb = new StringBuilder(m);
 		sb.deleteCharAt(0);
+		//deletes all the ,
+		m = m.replace(",", "");
 		
 		attributes = m.toCharArray();
 	}
