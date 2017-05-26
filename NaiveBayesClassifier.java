@@ -45,8 +45,7 @@ public class NaiveBayesClassifier {
 
     }
 
-   public void trainMushroom(String m) {
-      Mushroom shroom = new Mushroom(m);
+   public void trainMushroom(Mushroom shroom) {
       totalMushroomCount++;
       
       // Add mushroom classification category (poisonous=false, edible=true) to data 
